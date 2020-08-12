@@ -72,7 +72,7 @@ The database uses **mysql**.
 ### API documentation
 There are two ways to view API documentation：
 1. When the background server is running，use [http://127.0.0.1:5000/docs/api/](http://127.0.0.1:5000/docs/api/)  to see API document；
- 2. View **API.pdf** . This is derived from the previous method.
+2. View **API.pdf** . This is derived from the previous method.
 
 ### Backend code review guide
 The main function of the project is in **app.py**, so running app.py can run the entire server. The project uses **restful_api** to ensure standardization and modularity.The interfaces are classified into different py files by function.
