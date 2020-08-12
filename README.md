@@ -1,6 +1,6 @@
-
-# Frontedend
-## Frontend code review guide
+# COMP9323 Group5
+## Frontedend
+### Frontend code review guide
 
 - `frontend/`
 
@@ -41,9 +41,9 @@
   
 
 
-## How to install 
+### How to install 
 
-### requirement: 
+#### requirement: 
   
 node.js v12.18.2
 npm 6.14.5
@@ -59,22 +59,22 @@ npm install
 npm run serve
 
 
-# Backend
+## Backend
 
 The data and codes data used in the back-end are in the **backend** folder.
 
 
-## How to install
+### How to install
 We have a guide(**back-end_installation_guide.pdf**). to help with installation.
 The project uses **python3.7** and **flask** framework.
 The database uses **mysql**.
 
-## API documentation
+### API documentation
 There are two ways to view API documentation：
 1. When the background server is running，use [http://127.0.0.1:5000/docs/api/](http://127.0.0.1:5000/docs/api/)  to see API document；
  2. View **API.pdf** . This is derived from the previous method.
 
-## Backend code review guide
+### Backend code review guide
 The main function of the project is in **app.py**, so running app.py can run the entire server. The project uses **restful_api** to ensure standardization and modularity.The interfaces are classified into different py files by function.
 |   Module name   |   Features                     |
 |----------------|--------------------------------|
