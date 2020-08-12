@@ -49,11 +49,11 @@ node.js v12.18.2
 npm 6.14.5
 @vue/cli 4.4.6
 
-1.clone the repo
+1. clone the repo
 git clone https://github.com/walkenzhong/project_management.git
-2.go into app's directory
+2. go into app's directory
 cd project_management
-3.install app's dependencies
+3. install app's dependencies
 npm install
 4. serve with hot reload at localhost:8080
 npm run serve
